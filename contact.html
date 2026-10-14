@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — AeroBMSCE | Propel Lab–3</title>
+  <meta name="description" content="Connect with AeroBMSCE at Propel Lab–3, BMS College of Engineering. Contact for sponsorship, technical collaboration, and student recruitment." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-viewport">
+    <div class="console-card">
+
+      <!-- Navigation Bar -->
+      <header class="navbar">
+        <div class="nav-brand">
+          <a href="index.html" class="brand-link">
+            <img src="assets/logo.png" alt="AeroBMSCE Official Logo" class="brand-emblem" />
+            <div class="brand-text-wrap">
+              <span class="brand-title">AEROBMSCE</span>
+              <span class="brand-sub">ABOVE GRAVITY • BEYOND LIMITS</span>
+            </div>
+          </a>
+        </div>
+
+        <nav class="nav-menu" aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">HOME</a></li>
+            <li><a href="index.html#who" class="nav-item">WHO WE ARE</a></li>
+            <li><a href="journey.html" class="nav-item">JOURNEY</a></li>
+            <li><a href="projects.html" class="nav-item">PROJECTS</a></li>
+            <li><a href="partners.html" class="nav-item">PARTNERS</a></li>
+            <li><a href="contact.html" class="nav-item active">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-action">
+          <a href="contact.html" class="contact-btn">Contact us</a>
+        </div>
+      </header>
+
+      <!-- Subpage Hero Header -->
+      <section class="page-hero">
+        <div class="page-hero-hud">
+          <span>// COMMUNICATIONS LINK • PROPEL LAB-3 //</span>
+        </div>
+        <h1 class="page-hero-title">CONNECT WITH AEROBMSCE</h1>
+        <p class="page-hero-subtitle">
+          Direct inquiries for corporate sponsorship, student talent recruitment, technical research partnerships, or joining the club at BMS College of Engineering.
+        </p>
+      </section>
+
+      <!-- Main Contact Content -->
+      <main class="page-content">
+
+        <div class="contact-layout">
+          
+          <!-- Contact Details & Verified Info -->
+          <div class="contact-info-panel">
+            
+            <div class="section-title-wrap" style="margin-bottom: 0;">
+              <span class="sec-pre">// HEADQUARTERS &amp; LAB</span>
+              <h2 class="sec-title" style="font-size: 1.8rem;">PROPEL LAB–3</h2>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div class="info-details">
+                <h4>Lab &amp; Institutional Address</h4>
+                <p>
+                  Propel Lab–3, Department of Aerospace Engineering<br />
+                  B.M.S. College of Engineering<br />
+                  Bull Temple Road, Basavanagudi<br />
+                  Bengaluru, Karnataka 560019, India
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">✉️</div>
+              <div class="info-details">
+                <h4>Official Email Channel</h4>
+                <p>
+                  <a href="mailto:aerobmsce@bmsce.ac.in">aerobmsce@bmsce.ac.in</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">👤</div>
+              <div class="info-details">
+                <h4>Key Partnership Contact</h4>
+                <p>
+                  <strong>Rajesh</strong> &bull; Partnership Head<br />
+                  Department of Aerospace Engineering, BMSCE
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📡</div>
+              <div class="info-details">
+                <h4>GPS Coordinates &amp; Elevation</h4>
+                <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--color-gold);">
+                  LAT: 12.9416° N &bull; LON: 77.5658° E<br />
+                  ALTITUDE: 912M MSL // ZONE 43N
+                </p>
+              </div>
+            </div>
+
+            <!-- CAD Aircraft Emblem from Repository -->
+            <div style="margin-top: 10px; border: 1px solid var(--color-border-subtle); padding: 16px; background: #08090b; text-align: center;">
+              <img src="assets/cad-plane.png" alt="AeroBMSCE Aircraft CAD Model" style="max-height: 110px; max-width: 100%; object-fit: contain;" />
+              <div style="font-family: var(--font-mono); font-size: 0.68rem; color: var(--color-orange); margin-top: 8px; letter-spacing: 1px;">
+                PROPEL LAB–3 // FLIGHT RESEARCH WING
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Form with Validation -->
+          <div class="contact-form-panel">
+            
+            <div class="section-title-wrap" style="margin-bottom: 20px;">
+              <span class="sec-pre">// TRANSMIT MESSAGE</span>
+              <h2 class="sec-title" style="font-size: 1.8rem;">INQUIRY FORM</h2>
+            </div>
+
+            <form id="contactForm" novalidate>
+              
+              <div class="form-group">
+                <label class="form-label" for="contactName">Your Name / Title *</label>
+                <input type="text" id="contactName" class="form-input" placeholder="e.g. Dr. Jane Doe / John Smith" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactOrg">Organization / Company / College *</label>
+                <input type="text" id="contactOrg" class="form-input" placeholder="e.g. Aerospace Industries / University" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactEmail">Official Email Address *</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="e.g. partner@organization.com" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactCategory">Inquiry Subject *</label>
+                <select id="contactCategory" class="form-select" required>
+                  <option value="">-- Select Inquiries Category --</option>
+                  <option value="platinum">Platinum / Gold Corporate Sponsorship</option>
+                  <option value="technical">Technical &amp; Software Tool Collaboration</option>
+                  <option value="hardware">UAV Hardware / Component Supply</option>
+                  <option value="research">Academic / Defense R&amp;D (DRDO / NAL Track)</option>
+                  <option value="recruitment">Student Talent Recruitment</option>
+                  <option value="general">General Information</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactMsg">Message / Brief *</label>
+                <textarea id="contactMsg" class="form-textarea" placeholder="Detail your proposed collaboration, sponsorship scope, or inquiry..." required></textarea>
+              </div>
+
+              <button type="submit" class="form-submit-btn">
+                <span>Transmit Inquiry</span>
+                <span style="font-size: 1.1rem;">→</span>
+              </button>
+
+              <div class="form-status" id="formStatus"></div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </main>
+
+      <!-- Global Console Footer -->
+      <footer class="global-footer">
+        <div class="footer-top">
+          <div class="footer-col-brand">
+            <div class="footer-brand-title">AEROBMSCE</div>
+            <p class="footer-desc">
+              The official aerospace, aeromodelling, and unmanned systems research club of B.M.S. College of Engineering. Operating from Propel Lab–3, Bull Temple Road, Basavanagudi, Bengaluru 560019.
+            </p>
+          </div>
+          <div class="footer-col-nav">
+            <h5>Navigation</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="journey.html">Journey &amp; Impact</a></li>
+              <li><a href="projects.html">Projects &amp; R&amp;D</a></li>
+              <li><a href="partners.html">Partners &amp; Tiers</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-nav">
+            <h5>Contact &amp; Lab</h5>
+            <ul>
+              <li><span>Rajesh (Partnership Head)</span></li>
+              <li><a href="mailto:aerobmsce@bmsce.ac.in">aerobmsce@bmsce.ac.in</a></li>
+              <li><span>Propel Lab–3, BMSCE</span></li>
+              <li><span>Bangalore, Karnataka</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <span class="status-dot"></span>
+            <span>AVIONICS ONLINE // PROPEL LAB-3 // FLIGHT SYSTEMS OPERATIONAL</span>
+          </div>
+          <div class="footer-bottom-right">
+            &copy; AeroBMSCE • B.M.S. College of Engineering. All rights reserved.
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

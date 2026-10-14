@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects &amp; R&amp;D Initiatives — AeroBMSCE</title>
+  <meta name="description" content="Explore AeroBMSCE's flight-proven unmanned aerial vehicles, indigenous flight controllers, defense collaborations with DRDO, and aerodynamic research." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-viewport">
+    <div class="console-card">
+
+      <!-- Navigation Bar -->
+      <header class="navbar">
+        <div class="nav-brand">
+          <a href="index.html" class="brand-link">
+            <img src="assets/logo.png" alt="AeroBMSCE Official Logo" class="brand-emblem" />
+            <div class="brand-text-wrap">
+              <span class="brand-title">AEROBMSCE</span>
+              <span class="brand-sub">ABOVE GRAVITY • BEYOND LIMITS</span>
+            </div>
+          </a>
+        </div>
+
+        <nav class="nav-menu" aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">HOME</a></li>
+            <li><a href="index.html#who" class="nav-item">WHO WE ARE</a></li>
+            <li><a href="journey.html" class="nav-item">JOURNEY</a></li>
+            <li><a href="projects.html" class="nav-item active">PROJECTS</a></li>
+            <li><a href="partners.html" class="nav-item">PARTNERS</a></li>
+            <li><a href="contact.html" class="nav-item">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-action">
+          <a href="contact.html" class="contact-btn">Contact us</a>
+        </div>
+      </header>
+
+      <!-- Subpage Hero Header -->
+      <section class="page-hero">
+        <div class="page-hero-hud">
+          <span>// PROPULSION &amp; AVIONICS SPECIFICATION //</span>
+        </div>
+        <h1 class="page-hero-title">PROJECTS &amp; R&amp;D INITIATIVES</h1>
+        <p class="page-hero-subtitle">
+          Over 75 flight systems engineered at Propel Lab–3. From competition fixed-wing payload aircraft to autonomous quadcopters and defense-grade avionics.
+        </p>
+      </section>
+
+      <!-- Main Projects Content -->
+      <main class="page-content">
+
+        <!-- Flagship Flight Platforms -->
+        <div>
+          <div class="section-title-wrap">
+            <span class="sec-pre">// ACTIVE FLIGHT SYSTEMS</span>
+            <h2 class="sec-title">FLAGSHIP PLATFORMS</h2>
+          </div>
+
+          <div class="grid-2">
+            
+            <!-- Flying Phantoms Drone (The Uploaded Drone) -->
+            <div class="tech-card" style="border-top: 3px solid var(--color-orange);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <div class="card-tag">AUTONOMOUS MULTI-ROTOR</div>
+                <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-gold);">PODIUM WINNER 2025</span>
+              </div>
+              <h3 class="card-title">Flying Phantoms Autonomous Quadcopter</h3>
+              <p class="card-desc">
+                The flagship multi-rotor platform developed by Team Flying Phantoms at AeroBMSCE. Engineered with high-strength carbon-fiber tubular arms, vibration-damping motor mounts, Pixhawk autonomous autopilot, and a quick-release central payload bay.
+              </p>
+              
+              <div style="margin: 20px 0; background: #08090c; border: 1px solid var(--color-border-subtle); display: flex; align-items: center; justify-content: center; padding: 24px;">
+                <img src="assets/drone.png" alt="Flying Phantoms Autonomous Drone" style="max-height: 220px; max-width: 100%; object-fit: contain; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.8));" />
+              </div>
+
+              <ul class="card-list">
+                <li><strong>Avionics Architecture:</strong> Custom flight controller integration with real-time 5.8 GHz FHSS telemetry downlink.</li>
+                <li><strong>Payload Module:</strong> Secure vibration-isolated enclosure designed for multi-spectral sensor surveys and drop deployments.</li>
+                <li><strong>Field Record:</strong> Awarded 2nd Prize Overall (₹1,25,000 cash prize) at SAE Aerothon 2025.</li>
+              </ul>
+            </div>
+
+            <!-- Fixed-Wing Competition Aircraft (CAD Plane) -->
+            <div class="tech-card" style="border-top: 3px solid var(--color-gold);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <div class="card-tag">SAE COMPETITION AIRCRAFT</div>
+                <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-gold);">GLOBAL PODIUM</span>
+              </div>
+              <h3 class="card-title">Precision Fixed-Wing Heavy-Lift Aircraft</h3>
+              <p class="card-desc">
+                Engineered for the SAE International Aero Design series (USA) by Team Yaksha and Team Blue Impulse. Maximizes aerodynamic payload fraction using an optimized high-lift Selig airfoil, carbon-reinforced leading edge, and laser-cut balsa truss airframe.
+              </p>
+              
+              <div style="margin: 20px 0; background: #08090c; border: 1px solid var(--color-border-subtle); display: flex; align-items: center; justify-content: center; padding: 24px;">
+                <img src="assets/cad-plane.png" alt="Laser-cut Balsa Aircraft CAD Model" style="max-height: 220px; max-width: 100%; object-fit: contain;" />
+              </div>
+
+              <ul class="card-list">
+                <li><strong>Structural Design:</strong> Truss-rib fuselage with optimal stiffness-to-weight ratio to withstand high dynamic landing loads.</li>
+                <li><strong>Aerodynamic Simulation:</strong> Validated through CFD sweeps in ANSYS Fluent, Flow5, and SolidWorks Flow Simulation.</li>
+                <li><strong>Field Record:</strong> Top 10 global design ranking at SAE Aero Design West (Fort Worth, Texas).</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Ongoing & Upcoming R&D Initiatives -->
+        <div>
+          <div class="section-title-wrap">
+            <span class="sec-pre">// 2026–2027 INNOVATION PIPELINE</span>
+            <h2 class="sec-title">RESEARCH &amp; DEVELOPMENT INITIATIVES</h2>
+          </div>
+
+          <div class="grid-3">
+            
+            <div class="tech-card">
+              <div class="card-tag">HARDWARE &amp; FIRMWARE</div>
+              <h3 class="card-title">Indigenous Flight Controller Development</h3>
+              <p class="card-desc">
+                End-to-end hardware and firmware design for an autonomous autopilot unit tailored for high-vibration UAV environments with custom sensor fusion algorithms.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <div class="card-tag">PROPULSION ELECTRONICS</div>
+              <h3 class="card-title">Electronic Speed Controller (ESC) Development</h3>
+              <p class="card-desc">
+                High-efficiency brushless DC motor speed controller featuring Field-Oriented Control (FOC), regenerative braking, and thermal telemetry logging.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <div class="card-tag">AUTONOMOUS NAVIGATION</div>
+              <h3 class="card-title">GPS-Denied Navigation Systems</h3>
+              <p class="card-desc">
+                Vision- and optical-flow-based autonomous navigation pipeline enabling reliable tactical flight inside indoor arenas, canyons, and dense RF-jammed areas.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <div class="card-tag">MULTI-MISSION PLATFORMS</div>
+              <h3 class="card-title">Surveillance Aircraft Development</h3>
+              <p class="card-desc">
+                Re-configurable multi-mission fixed-wing UAV equipped with convertible propulsion and an integrated modular payload bay for aerial mapping.
+              </p>
+            </div>
+
+            <div class="tech-card" style="border-left: 3px solid #ff3333;">
+              <div class="card-tag" style="color: #ff5555;">RESTRICTED INITIATIVE</div>
+              <h3 class="card-title">Confidential Defense Project</h3>
+              <p class="card-desc">
+                Advanced aerospace systems initiative conducted in direct collaboration with the <strong>Defence Research and Development Organisation (DRDO)</strong>. Specific technical parameters restricted under institutional agreement.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <div class="card-tag">ADAPTIVE AERODYNAMICS</div>
+              <h3 class="card-title">Morphing Wingtip Mechanisms</h3>
+              <p class="card-desc">
+                Active aeroelastic wingtip structures that adapt aspect ratio and dihedral angle in real time to minimize induced drag across cruise and dash flight phases.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <div class="card-tag">ACTIVE FLIGHT CONTROL</div>
+              <h3 class="card-title">Directional Stability via Micro-Fins</h3>
+              <p class="card-desc">
+                Active micro-fin actuators deployed on the aft fuselage to enhance lateral-directional damping during gust perturbations without requiring oversized vertical stabilizers.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <div class="card-tag">INSTITUTIONAL BACKING</div>
+              <h3 class="card-title">Strategic R&amp;D Subsidization</h3>
+              <p class="card-desc">
+                100% of the research, development, and technical fabrication for our current flight systems is subsidized by the R&amp;D Department at BMS College of Engineering.
+              </p>
+            </div>
+
+            <div class="tech-card">
+              <div class="card-tag">ROADMAP</div>
+              <h3 class="card-title">Upcoming Competitions (2026–2027)</h3>
+              <ul class="card-list">
+                <li><strong>NACDEC 2026</strong> (Aeronautical Society of India)</li>
+                <li><strong>ISRO IROC</strong> (Rover Challenge – ISRO Track)</li>
+                <li><strong>NITK Drone Racing 2026</strong></li>
+                <li><strong>SAE Aero Design West 2027</strong></li>
+                <li><strong>SAE Aerothon 2027</strong></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </main>
+
+      <!-- Global Console Footer -->
+      <footer class="global-footer">
+        <div class="footer-top">
+          <div class="footer-col-brand">
+            <div class="footer-brand-title">AEROBMSCE</div>
+            <p class="footer-desc">
+              The official aerospace, aeromodelling, and unmanned systems research club of B.M.S. College of Engineering. Operating from Propel Lab–3, Bull Temple Road, Basavanagudi, Bengaluru 560019.
+            </p>
+          </div>
+          <div class="footer-col-nav">
+            <h5>Navigation</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="journey.html">Journey &amp; Impact</a></li>
+              <li><a href="projects.html">Projects &amp; R&amp;D</a></li>
+              <li><a href="partners.html">Partners &amp; Tiers</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-nav">
+            <h5>Contact &amp; Lab</h5>
+            <ul>
+              <li><span>Rajesh (Partnership Head)</span></li>
+              <li><a href="mailto:aerobmsce@bmsce.ac.in">aerobmsce@bmsce.ac.in</a></li>
+              <li><span>Propel Lab–3, BMSCE</span></li>
+              <li><span>Bangalore, Karnataka</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <span class="status-dot"></span>
+            <span>AVIONICS ONLINE // PROPEL LAB-3 // FLIGHT SYSTEMS OPERATIONAL</span>
+          </div>
+          <div class="footer-bottom-right">
+            &copy; AeroBMSCE • B.M.S. College of Engineering. All rights reserved.
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

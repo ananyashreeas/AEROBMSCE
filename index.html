@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AeroBMSCE — Official Aerospace & UAV Club | BMS College of Engineering</title>
+  <meta name="description" content="AeroBMSCE is the official aerospace, aeromodelling, and unmanned systems innovation club of BMS College of Engineering, operating from Propel Lab–3." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=Share+Tech+Mono&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Outer Viewport Framing -->
+  <div class="site-viewport">
+    <div class="console-card">
+
+      <!-- Global Navigation Bar -->
+      <header class="navbar">
+        <div class="nav-brand">
+          <a href="index.html" class="brand-link">
+            <img src="assets/logo.png" alt="AeroBMSCE Official Logo" class="brand-emblem" />
+            <div class="brand-text-wrap">
+              <span class="brand-title">AEROBMSCE</span>
+              <span class="brand-sub">ABOVE GRAVITY • BEYOND LIMITS</span>
+            </div>
+          </a>
+        </div>
+
+        <nav class="nav-menu" aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-item active">HOME</a></li>
+            <li><a href="#who" class="nav-item">WHO WE ARE</a></li>
+            <li><a href="journey.html" class="nav-item">JOURNEY</a></li>
+            <li><a href="projects.html" class="nav-item">PROJECTS</a></li>
+            <li><a href="partners.html" class="nav-item">PARTNERS</a></li>
+            <li><a href="contact.html" class="nav-item">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-action">
+          <a href="contact.html" class="contact-btn">Contact us</a>
+        </div>
+      </header>
+
+      <!-- Main Stage / Hero Display (DeepSpace Theme) -->
+      <section class="hero-stage">
+        
+        <!-- Faint Background Watermark "EXTRACTION" -->
+        <div class="watermark-container" aria-hidden="true">
+          <span class="watermark-word">EXTRACTION</span>
+        </div>
+
+        <!-- Hero Title Section: "AEROBMSCE" -->
+        <div class="hero-header">
+          <h1 class="hero-title">AEROBMSCE</h1>
+
+          <!-- Telemetry HUD Bar -->
+          <div class="telemetry-bar">
+            <div class="hud-box hud-plus-left">+</div>
+            
+            <div class="hud-box hud-inverted">
+              LAUNCH WINDOW: 2026
+            </div>
+
+            <div class="hud-box hud-target">
+              <svg class="hud-icon" viewBox="0 0 20 20" fill="none">
+                <circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.3"/>
+                <circle cx="10" cy="10" r="2.5" fill="currentColor"/>
+                <line x1="10" y1="1" x2="10" y2="5" stroke="currentColor" stroke-width="1.3"/>
+                <line x1="10" y1="15" x2="10" y2="19" stroke="currentColor" stroke-width="1.3"/>
+                <line x1="1" y1="10" x2="5" y2="10" stroke="currentColor" stroke-width="1.3"/>
+                <line x1="15" y1="10" x2="19" y2="10" stroke="currentColor" stroke-width="1.3"/>
+              </svg>
+              <span>TGT M-TYPE ASTEROID</span>
+            </div>
+
+            <div class="hud-axis"></div>
+
+            <div class="hud-box hud-distance">
+              <svg class="hud-icon" viewBox="0 0 20 20" fill="none">
+                <circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.3"/>
+                <line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="1.3"/>
+                <path d="M5 6C7.5 7.5 12.5 7.5 15 6" stroke="currentColor" stroke-width="1"/>
+                <path d="M5 14C7.5 12.5 12.5 12.5 15 14" stroke="currentColor" stroke-width="1"/>
+              </svg>
+              <span>DST ~20M KM</span>
+            </div>
+
+            <div class="hud-box hud-plus-right">+</div>
+          </div>
+        </div>
+
+        <!-- Central Vehicle: Uploaded Cutout Drone Image -->
+        <div class="hero-vehicle-wrapper">
+          <div class="vehicle-container">
+            <img 
+              src="assets/drone.png" 
+              alt="AeroBMSCE Autonomous Drone" 
+              class="drone-image" 
+            />
+          </div>
+        </div>
+
+        <!-- Bottom Left Technical Telemetry & Specifications -->
+        <div class="specs-overlay">
+          <div class="hazard-bar" aria-hidden="true"></div>
+
+          <div class="specs-header">PAYLOAD CONFIGURATION:</div>
+          
+          <div class="specs-table">
+            <div class="spec-row">
+              <span class="spec-arrow">→</span>
+              <span class="spec-label">BUS:</span>
+              <span class="spec-val">200 KG MODULAR PLATFORM</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-arrow">→</span>
+              <span class="spec-label">COST:</span>
+              <span class="spec-val">UNDER $10M PER MISSION</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-arrow">→</span>
+              <span class="spec-label">BUILD:</span>
+              <span class="spec-val">UNDER 10 MONTHS</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-arrow">→</span>
+              <span class="spec-label">MISSION LIFE:</span>
+              <span class="spec-val">UP TO 2 YEARS</span>
+            </div>
+          </div>
+
+          <div class="specs-tags">
+            <div class="tag-row">
+              <span class="tag-bracket">[CFG]</span>
+              <span class="tag-desc">COMMERCIAL PAYLOAD READY</span>
+            </div>
+            <div class="tag-row">
+              <span class="tag-bracket">[INT]</span>
+              <span class="tag-desc">ESPA COMPATIBLE BUS</span>
+            </div>
+            <div class="tag-row">
+              <span class="tag-bracket">[OPS]</span>
+              <span class="tag-desc">EXTENDED DEEP SPACE OPS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Right Asteroid Surface -->
+        <div class="terrain-container" aria-hidden="true">
+          <img src="assets/asteroid.png" alt="Asteroid Celestial Terrain" class="asteroid-terrain" />
+        </div>
+
+      </section>
+
+      <!-- Credibility Summary Ribbon -->
+      <div class="credibility-ribbon">
+        <div class="cred-item">
+          <span class="cred-val">16+</span>
+          <span class="cred-label">Years Flight History</span>
+        </div>
+        <div class="cred-item">
+          <span class="cred-val">75+</span>
+          <span class="cred-label">Completed Projects</span>
+        </div>
+        <div class="cred-item">
+          <span class="cred-val">20+</span>
+          <span class="cred-label">Podium Finishes</span>
+        </div>
+        <div class="cred-item">
+          <span class="cred-val">50+</span>
+          <span class="cred-label">Research Papers & Reports</span>
+        </div>
+        <div class="cred-item">
+          <span class="cred-val">10+</span>
+          <span class="cred-label">Engineering Departments</span>
+        </div>
+      </div>
+
+      <!-- Who We Are & Club Overview Section -->
+      <section class="page-content" id="who">
+        
+        <div>
+          <div class="section-title-wrap">
+            <span class="sec-pre">// BMS COLLEGE OF ENGINEERING • PROPEL LAB-3</span>
+            <h2 class="sec-title">WHO WE ARE</h2>
+          </div>
+          <div class="grid-2">
+            <div class="tech-card">
+              <div class="card-tag">ESTABLISHED 2012</div>
+              <h3 class="card-title">Propel Lab–3 Aerospace Innovation</h3>
+              <p class="card-desc">
+                AeroBMSCE is the official aerospace, aeromodelling, and unmanned systems innovation club of BMS College of Engineering, operating from <strong>Propel Lab–3</strong>. Established in 2012, the club brings together engineers from 10+ departments to design, build, and test advanced aircraft, drones, and autonomous systems.
+              </p>
+            </div>
+            <div class="tech-card">
+              <div class="card-tag">OUR MISSION &amp; VISION</div>
+              <h3 class="card-title">Above Gravity • Beyond Limits</h3>
+              <p class="card-desc">
+                We envision AeroBMSCE as a leading aerospace and unmanned systems research group, renowned for design excellence, innovation, and competitive success. We aim to cultivate future leaders in the aerospace and drone industry, establishing a legacy of engineering excellence that inspires students worldwide.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- What We Do & Why It Matters -->
+        <div>
+          <div class="section-title-wrap">
+            <span class="sec-pre">// CORE COMPETENCIES &amp; IMPACT</span>
+            <h2 class="sec-title">WHAT WE DO &amp; WHY IT MATTERS</h2>
+          </div>
+          <div class="grid-2">
+            <div class="tech-card">
+              <div class="card-tag">ENGINEERING DISCIPLINES</div>
+              <h3 class="card-title">What We Do</h3>
+              <ul class="card-list">
+                <li><strong>Competitive Aircraft &amp; UAV Design</strong> — Micro and Regular class fixed-wing platforms engineered for international payload competitions.</li>
+                <li><strong>Drone Racing &amp; Autonomy</strong> — High-speed agile quadcopters and vision-guided autonomous flight vehicles.</li>
+                <li><strong>Industry-Grade Fabrication &amp; Testing</strong> — Composite vacuum bagging, CNC balsa routing, wind-tunnel analysis, and flight testing.</li>
+                <li><strong>Talent Development</strong> — Equipping undergraduate researchers with practical systems engineering capabilities.</li>
+              </ul>
+            </div>
+            <div class="tech-card">
+              <div class="card-tag">STRATEGIC VALUE</div>
+              <h3 class="card-title">Why It Matters</h3>
+              <ul class="card-list">
+                <li><strong>Engineers Trained on Real Constraints</strong> — Building flight-worthy airframes under payload, weight, and aerodynamic limitations.</li>
+                <li><strong>Talent Exposure Before Graduation</strong> — Direct engagement with aerospace industry leaders, defense laboratories, and global teams.</li>
+                <li><strong>Brand Visibility in Elite Technical Ecosystems</strong> — Representing India and BMSCE on prestigious podiums globally (SAE International, IIT Techfest).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- The Four Competitive Divisions -->
+        <div>
+          <div class="section-title-wrap">
+            <span class="sec-pre">// SPECIALIZED SQUADS</span>
+            <h2 class="sec-title">OUR COMPETITIVE TEAMS</h2>
+          </div>
+          <div class="grid-4">
+            <div class="tech-card">
+              <div class="card-tag">GLOBAL COMPETITIONS</div>
+              <h3 class="card-title">Team Yaksha</h3>
+              <p class="card-desc">Flagship squad representing BMSCE at international aero design challenges, including SAE International Aero Design West (USA).</p>
+            </div>
+            <div class="tech-card">
+              <div class="card-tag">NATIONAL CHAMPIONS</div>
+              <h3 class="card-title">Team Blue Impulse</h3>
+              <p class="card-desc">Specialized in fixed-wing aeromodelling, national podiums, and aerodynamic flight optimization.</p>
+            </div>
+            <div class="tech-card">
+              <div class="card-tag">AUTONOMOUS UAVs</div>
+              <h3 class="card-title">Team Flying Phantoms</h3>
+              <p class="card-desc">Advanced multi-rotor drone development, sensor bay payload integration, and winners of SAE Aerothon ₹1,25,000 cash prize.</p>
+            </div>
+            <div class="tech-card">
+              <div class="card-tag">FPV &amp; SPEED</div>
+              <h3 class="card-title">Team Vectors</h3>
+              <p class="card-desc">High-speed competitive FPV drone racing squad with top finishes at NITK Surathkal and GAT.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Strategic Collaboration Preview -->
+        <div class="tech-card" style="border-left: 4px solid var(--color-orange);">
+          <div class="card-tag">PARTNERS &amp; SPONSORS</div>
+          <h3 class="card-title">Flight-Proven Engineering Supported by Industry Leaders</h3>
+          <p class="card-desc" style="margin-bottom: 20px;">
+            100% of our research and technical fabrication is subsidized by the R&amp;D Department at BMS College of Engineering, alongside technical partnerships with SolidWorks, Ansys, Altair, Siemens, CSIR-NAL, and DRDO.
+          </p>
+          <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+            <a href="partners.html" class="contact-btn">Explore Collaboration Tiers</a>
+            <a href="journey.html" class="contact-btn" style="border-color: #444; color: #ccc;">View Milestones Timeline</a>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Global Console Footer -->
+      <footer class="global-footer">
+        <div class="footer-top">
+          <div class="footer-col-brand">
+            <div class="footer-brand-title">AEROBMSCE</div>
+            <p class="footer-desc">
+              The official aerospace, aeromodelling, and unmanned systems research club of B.M.S. College of Engineering. Operating from Propel Lab–3, Bull Temple Road, Basavanagudi, Bengaluru 560019.
+            </p>
+          </div>
+          <div class="footer-col-nav">
+            <h5>Navigation</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="journey.html">Journey &amp; Impact</a></li>
+              <li><a href="projects.html">Projects &amp; R&amp;D</a></li>
+              <li><a href="partners.html">Partners &amp; Tiers</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-nav">
+            <h5>Contact &amp; Lab</h5>
+            <ul>
+              <li><span>Rajesh (Partnership Head)</span></li>
+              <li><a href="mailto:aerobmsce@bmsce.ac.in">aerobmsce@bmsce.ac.in</a></li>
+              <li><span>Propel Lab–3, BMSCE</span></li>
+              <li><span>Bangalore, Karnataka</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <span class="status-dot"></span>
+            <span>AVIONICS ONLINE // PROPEL LAB-3 // FLIGHT SYSTEMS OPERATIONAL</span>
+          </div>
+          <div class="footer-bottom-right">
+            &copy; AeroBMSCE • B.M.S. College of Engineering. All rights reserved.
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
