@@ -6,7 +6,7 @@ A multi-page web portal built for **Aerospace BMSCE (Propel Lab–3)**. This pla
 
 ## Live Browser Preview
 
-Click any of the links below to render and view the pages directly in your browser without cloning or deploying the repository:
+Click any of the links below to render and view the pages directly in your browser:
 
 * **[View Home Page (index.html)](https://htmlpreview.github.io/?https://github.com/ananyashreeas/AEROBMSCE/blob/main/index.html)**
 * **[View Journey & Milestones (journey.html)](https://htmlpreview.github.io/?https://github.com/ananyashreeas/AEROBMSCE/blob/main/journey.html)**
